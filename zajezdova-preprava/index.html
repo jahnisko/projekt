@@ -47,10 +47,11 @@
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
                         <a class="dropdown-item" href="index.html">ZÁJEZDOVÁ PŘEPRAVA</a>
                         <a class="dropdown-item" href="../galerie/index.html">GALERIE AUTOBUSŮ</a>
+                        <a class="dropdown-item" href="../historie/index.html">HISTORIE</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../historie/index.html">HISTORIE</a>
+                    <a class="nav-link" href="../jizdni-rady/index.html">JÍZDNÍ ŘÁDY</a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
@@ -68,45 +69,46 @@
                         <label>Jméno odpovědné osoby:</label>
                         <input type="text" name="jmenoosoby" id="jmenoosoby" class="form-control" required>
                     </div>
-                        <div class="form-group">
-                            <label>Příjmení odpovědné osoby:</label>
-                            <input type="text" name="prijmeniosoby" id="prijmeniosoby" class="form-control" required>
-                        </div>
+                    <div class="form-group">
+                        <label>Příjmení odpovědné osoby:</label>
+                        <input type="text" name="prijmeniosoby" id="prijmeniosoby" class="form-control" required>
                     </div>
                 </div>
-                <div class="form-group">
-                    <label>Výběr autobusu</label>
-                    <select name="autobusy" id="autobusy" class="form-control">
-                        <option value="sor">SOR CNG 12</option>
-                        <option value="scania">Scania Citywide LE</option>
-                        <option value="karosa">Karosa LC 936</option>
-                        <option value="iveco">Iveco Crossway</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label>Datum převozu</label>
-                    <input type="date" name="bday" min="2019-06-18" max="2020-12-31" class="form-control">
-                </div>
-                <div class="form-group">
-                    <label>Počet osob:</label>
-                    <input type="text" name="pocty" class="form-control" placeholder="např. 40" required>
-                </div>
-                <div class="form-group">
-                    <label>E-mail:</label>
-                    <input type="text" name="emaily" class="form-control" placeholder="např. jan@novak.cz" required>
-                </div>
-                <div class="form-group">
-                    <input type="checkbox" name="souhlas" required> Souhlasím
-                    se zpracováním osobních údajů
-                </div>
-                <div class="form-group">
-                    <button type="submit" class="btn btn-success">Poptat objednávku</button>
-                </div>
+            </div>
+            <div class="form-group">
+                <label>Výběr autobusu</label>
+                <select name="autobusy" id="autobusy" class="form-control">
+                    <option value="sor">SOR CNG 12</option>
+                    <option value="scania">Scania Citywide LE</option>
+                    <option value="karosa">Karosa LC 936</option>
+                    <option value="iveco">Iveco Crossway</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Datum převozu</label>
+                <input type="date" name="bday" min="2019-06-18" max="2020-12-31" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Počet osob:</label>
+                <input type="text" name="pocty" class="form-control" placeholder="např. 40" required>
+            </div>
+            <div class="form-group">
+                <label>E-mail:</label>
+                <input type="text" name="emaily" class="form-control" placeholder="např. jan@novak.cz" required>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" name="souhlas" required> Souhlasím
+                se zpracováním osobních údajů
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-success">Poptat objednávku</button>
+            </div>
         </form>
     </main>
     <footer class="jumbotron jumbotron-fluid text-center mt-5 mb-0 bg-white border-top">
         <div class="row">
-            <div class="col-md-3"><a href="https://www.csadvs.cz/" target="_blank"><img src="../img/logo.jpg" alt="Logo ČSAD Vsetín" height="50"></a></div>
+            <div class="col-md-3"><a href="https://www.csadvs.cz/" target="_blank"><img src="../img/logo.jpg"
+                        alt="Logo ČSAD Vsetín" height="50"></a></div>
             <div class="col-md-3"><a href="https://www.kodis.cz/cz/" target="_blank"><img src="../img/odis.gif"
                         alt="Logo ODIS" height="50"></a></div>
             <div class="col-md-3"><a href="https://www.msk.cz/" target="_blank"><img src="../img/msk.jpg"
@@ -115,6 +117,9 @@
                         alt="Logo Zlínského kraje" height="50"></a></div>
         </div>
     </footer>
+    <div class="bg-success mt-2 mb-0 text-white text-center">
+        &copy; 2019 Vítězslav Jahn, IT1
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
